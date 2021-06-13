@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Circular";
+    src: url("fonts/Circular-Bold.woff2") format("woff2"),
+      url("fonts/Circular-Bold.woff") format("woff"),
+      url("fonts/Circular-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Circular";
+    src: url("fonts/Circular-Book.woff2") format("woff2"),
+      url("fonts/Circular-Book.woff") format("woff"),
+      url("fonts/Circular-Book.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    font-family: "Circular", sans-serif;
+    font-weight: normal;
+    overflow: hidden;
+    height:100%;
+    width:100%;
+}
+
+/*ID HUD*/
+
+.hud {
+    position: absolute;
+    top: 60px; /*990px to sama gora jak cos*/
+    right: -160px; /*przy prawej -190px*/
+    width: 280px;
+}
+  
+.image {
+    height: 60%;
+    max-width: 50%;
+    display: block;
+}
+  
+#ID {
+    width: 90px;
+    float: right;
+    margin-top: 9px;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(164, 8, 236);
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+  
+#text{
+    margin-left: 60px;
+}
+
+#logoBodyCam{
+    max-width: 80px;
+    float: left;
+}
+
+/*STREETLABEL*/
+#streetLabel {
+    display: none;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    left: 17.481%;
+    bottom: 0.15%;
+    width: 400px;
+    height: 40px;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#headingDiv{
+    position: relative;
+    font-size: 28px;
+    top: 1px;
+    float: left;
+}
+
+#kreska{
+    margin: 0 8px;
+    margin-top: 4px;
+    float: right;
+    background: #828282;
+    height: 28px;
+    width: 3px;
+    box-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#streetLabel2{
+    position: relative;
+    top:1px;
+    bottom: 10px;
+    float: left;
+    width:300px;
+}
+
+#street{
+    color: #ef06f7;
+    font-size: 12px;
+}
+
+#street2{
+    color: #ef06f7;
+    font-size: 12px;
+}
+
+#zone{
+    position: relative;
+    bottom: 8px;
+    color: white;
+    font-size: 9px;
+}
